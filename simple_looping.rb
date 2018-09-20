@@ -6,7 +6,7 @@ def loop_iterator(number_of_times)
     counter += 1
     puts "Welcome to Flatiron School's Web Development Course!"
 
-    if counter > 7
+    if counter < 8
       break
     end
   end
@@ -17,12 +17,12 @@ def times_iterator(number_of_times)
   puts "Welcome to Flatiron School's Web Development Course!"
 end
 end
-
+counter = 0
 def while_iterator(number_of_times)
   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
-  counter = 0
-  while counter < 8
+
+  while counter < 7
     puts "Welcome to Flatiron School's Web Development Course!"
     counter += 1
     end
